@@ -1,0 +1,121 @@
+:root {
+    --buscor-orange: #E84E1B;
+    --buscor-green: #3FAE29;
+    --buscor-brown: #8B4513;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: white;
+    color: var(--buscor-brown);
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+h1 {
+    color: var(--buscor-orange);
+    margin: 0;
+}
+
+nav button {
+    background-color: var(--buscor-green);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: var(--buscor-orange);
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--buscor-brown);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: var(--buscor-brown);
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--buscor-orange);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--buscor-green);
+}
+
+.ticket-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#ticket-display {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#user-info, #active-tickets, #purchase-history {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
